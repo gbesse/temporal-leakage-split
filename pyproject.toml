@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-leakage-split"
+version = "0.1.0a1"
+description = "FR: Séparer les jeux temporels en respectant les lignées et les délais | EN: Split temporal datasets respecting lineages and delays | ES: Dividir datos temporales respetando linajes y retrasos"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+temporal-leakage-split = "temporal_leakage_split.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["temporal_leakage_split*"]

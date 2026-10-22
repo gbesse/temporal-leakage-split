@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Séparer les jeux temporels en respectant les lignées et les délais', 'en': 'Split temporal datasets respecting lineages and delays', 'es': 'Dividir datos temporales respetando linajes y retrasos'}

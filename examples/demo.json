@@ -1,0 +1,35 @@
+{
+  "cut": 100,
+  "evaluation_at": 150,
+  "embargo": 5,
+  "rows": [
+    {
+      "id": "train_a",
+      "group": "customer1",
+      "time": 20,
+      "available_at": 20,
+      "label_available_at": 30
+    },
+    {
+      "id": "test_a",
+      "group": "customer1",
+      "time": 110,
+      "available_at": 110,
+      "label_available_at": 120
+    },
+    {
+      "id": "late_label",
+      "group": "customer2",
+      "time": 80,
+      "available_at": 80,
+      "label_available_at": 120
+    },
+    {
+      "id": "clean",
+      "group": "customer3",
+      "time": 50,
+      "available_at": 50,
+      "label_available_at": 60
+    }
+  ]
+}
